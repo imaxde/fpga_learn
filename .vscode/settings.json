@@ -1,5 +1,7 @@
 {
     "verilog.formatting.verilogHDL.formatter": "verible-verilog-format",
     "verilog.languageServer.veribleVerilogLs.enabled": true,
-    "verilog.linting.linter": "iverilog"
+    "verilog.linting.linter": "iverilog",
+    "verilog.linting.iverilog.arguments": "-g2012",
+    "verilog.slangServer.enabled": false
 }
