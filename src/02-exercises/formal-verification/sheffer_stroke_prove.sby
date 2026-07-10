@@ -1,0 +1,12 @@
+[options]
+mode prove
+
+[engines]
+smtbmc z3
+
+[script]
+read -sv -formal sheffer_stroke_fv.sv
+prep -top sheffer_stroke_fv
+
+[files]
+sheffer_stroke_fv.sv
